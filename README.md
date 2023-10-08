@@ -1,5 +1,5 @@
 # CompChemToolBox
-The repository collects short codes used in our group for various miscellaneous #compchem tasks. As time permits, I will add more notes in the wiki tab of this repository.
+The repository collects short codes used in our group for various miscellaneous #compchem tasks. As time permits, I will add more notes in the wiki tab of this repository. Some details for each code are as follows.
 
 ## OBMINIMIZE
 Some versions of `obminimize` cannot handle multiple XYZs in a file and results in unwanted effects. See the following thread for some discussions on these. 
