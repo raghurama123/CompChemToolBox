@@ -14,10 +14,12 @@ The program [CheckConnGO.f90](https://github.com/raghurama123/CompChemToolBox/tr
 
 We applied such diagnostics to identify QM9 molecules that have underdone re-arrangement during geometry optimization for our paper 
 
-Troubleshooting Unstable Molecules in Chemical Space 
-Salini Senthil, Sabyasachi Chakraborty, Raghunathan Ramakrishnan
-Chemical Science, 2021
-https://pubs.rsc.org/en/content/articlelanding/2021/SC/D0SC05591C
+```
+  Troubleshooting Unstable Molecules in Chemical Space 
+  Salini Senthil, Sabyasachi Chakraborty, Raghunathan Ramakrishnan
+  Chemical Science, 2021
+  https://pubs.rsc.org/en/content/articlelanding/2021/SC/D0SC05591C
+```
 
 See the [README file](https://github.com/raghurama123/CompChemToolBox/blob/main/CheckConnGO/example) for more details.
 
