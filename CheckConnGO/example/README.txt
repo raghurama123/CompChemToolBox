@@ -1,4 +1,4 @@
-The proram CheckConnGO.f90 compares file-1 (SDF file, presumably generated from SMILES using obabel) and file-2 (XYZ generated using DFT optimization) and does statistics about preservation of bond connectvities during geometry optimization. 
+The program CheckConnGO.f90 compares file-1 (SDF file, presumably generated from SMILES using obabel) and file-2 (XYZ generated using DFT optimization) and does statistics about preservation of bond connectvities during geometry optimization. 
 
 
 We applied this code for our paper 
