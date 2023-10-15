@@ -1,7 +1,7 @@
-The program CheckConnGO.f90 compares file-1 (SDF file, presumably generated from SMILES using obabel) and file-2 (XYZ generated using DFT optimization) and does statistics about preservation of bond connectvities during geometry optimization. 
+The program CheckConnGO.f90 compares file-1 (SDF file, presumably generated from SMILES using obabel) and file-2 (XYZ generated using DFT optimization) and does statistics about the preservation of bond connectivities during geometry optimization. 
 
 
-We applied this code for our paper 
+We applied this code in our work 
 
 Troubleshooting Unstable Molecules in Chemical Space 
 Salini Senthil, Sabyasachi Chakraborty, Raghunathan Ramakrishnan
@@ -14,7 +14,7 @@ SAMPLE RUN:
 
 GENERATES THE FOLLOWING OUTPUT: 
 -------------------------------
-We see that the covalent bond lengths are similar in file-1 and file-2, implying that no re-arrangement has happened during DFT geometry relaxation. The last line states 'ConnGO PASS [MPAD < 5, MaxAD < 0.2 Angstrom]' summarizing that the covalent bonds encoded in the SDF file (file-1) are preserved in file-2 (only the connectivities, the DFT level bond lengths may slightly differ than in file-1). If file-2 has a rearranged structure (many examples are given in our Chemical Science paper referred above), then the code will print 'ConnGO FAIL ...'. ConnGO is an acronym for connectivity preserving geometry optimization. A new SDF file with connectivities from file-1 and coordinates from file-2 will be created with the name file-3 (in this example, geom_DFT_S0.sdf)
+We see that the covalent bond lengths are similar in file-1 and file-2, implying that no re-arrangement has happened during DFT geometry relaxation. The last line states 'ConnGO PASS [MPAD < 5, MaxAD < 0.2 Angstrom]' summarizing that the covalent bonds encoded in the SDF file (file-1) are preserved in file-2 (only the connectivities, the DFT level bond lengths may slightly differ than in file-1). If file-2 has a rearranged structure (many examples are given in our Chemical Science paper referred to above), then the code will print 'ConnGO FAIL ...'. ConnGO is an acronym for connectivity preserving geometry optimization. A new SDF file with connectivities from file-1 and coordinates from file-2 will be created with the name file-3 (in this example, geom_DFT_S0.sdf)
 
 The output is piped to summary.txt using '| tee summary.txt'
 
