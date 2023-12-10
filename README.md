@@ -2,7 +2,11 @@
 The repository collects shortcodes for various miscellaneous #compchem tasks. Some details for each code are as follows.
 
 ## Boltzmann Average
-If you have a CSV file with two columns (1. Energies in some unit, 2. Some property), then the example code in the folder [BoltzmannAveraging](https://github.com/raghurama123/CompChemToolBox/tree/main/BoltzmannAveraging) can help you find a Boltzmann average.
+If you have a CSV file with two columns (1. Energies in some unit, 2. Some property), then the example code in the folder [BoltzmannAveraging](https://github.com/raghurama123/CompChemToolBox/tree/main/BoltzmannAveraging) can help you find a Boltzmann average. You can select the energy unit and temperatures by editing the following lines
+```
+unit='cmi'
+Ts = [28, 77, 100, 300, 400, 500, 1000, 2000, 3000]  
+```
 
 ## OBMINIMIZE
 Some versions of `obminimize` cannot handle multiple XYZs in a file resulting in unwanted effects. See the following thread for some discussions on these. 
