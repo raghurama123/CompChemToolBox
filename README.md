@@ -1,5 +1,5 @@
 # CompChemToolBox
-The repository collects shortcodes used in our group for various miscellaneous #compchem tasks. Some details for each code are as follows.
+The repository collects shortcodes for various miscellaneous #compchem tasks. Some details for each code are as follows.
 
 ## Boltzmann Average
 If you have a CSV file with two columns (1. Energies in some unit, 2. Some property), then the example code in the folder [BoltzmannAveraging](https://github.com/raghurama123/CompChemToolBox/tree/main/BoltzmannAveraging) can help you find a Boltzmann average.
