@@ -3,8 +3,9 @@ The repository collects shortcodes for various miscellaneous #compchem tasks. So
 
 ## Boltzmann Average
 If you have a CSV file with two columns (1. Energies in some unit, 2. Some property), then the example code in the folder [BoltzmannAveraging](https://github.com/raghurama123/CompChemToolBox/tree/main/BoltzmannAveraging) can help you find a Boltzmann average. You can select the energy unit and temperatures by editing the following lines
+        
 ```
-unit='cmi'
+unit='cmi' # allowed values are 'eV', 'kcm' (for kcal/mol), 'kjm' (kJ/mol), 'hartree', 'cmi' (for cm^-1)
 Ts = [28, 77, 100, 300, 400, 500, 1000, 2000, 3000]  
 ```
 
