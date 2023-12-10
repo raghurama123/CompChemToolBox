@@ -1,6 +1,9 @@
 # CompChemToolBox
 The repository collects shortcodes used in our group for various miscellaneous #compchem tasks. Some details for each code are as follows.
 
+## Boltzmann Average
+If you have a CSV file with two columns (1. Energies in some unit, 2. Some property), then the example code in the folder [BoltzmannAveraging](https://github.com/raghurama123/CompChemToolBox/tree/main/BoltzmannAveraging) can help you find a Boltzmann average.
+
 ## OBMINIMIZE
 Some versions of `obminimize` cannot handle multiple XYZs in a file resulting in unwanted effects. See the following thread for some discussions on these. 
 https://www.mail-archive.com/search?l=openbabel-discuss@lists.sourceforge.net&q=subject:%22%5C%5BOpen+Babel%5C%5D+obminimize%22&o=newest&f=1
