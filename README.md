@@ -6,11 +6,12 @@ If you have a CSV file with two columns (1. Energies in some unit, 2. Some prope
         
 ```
 unit='cmi'  # 'eV', 'kcm' (for kcal/mol), 'kjm' (kJ/mol), 'hartree', 'cmi' (for cm^-1)
+
 Ts = [28, 77, 100, 300, 400, 500, 1000, 2000, 3000]  
 ```
 
 ## OBMINIMIZE
-Some versions of `obminimize` cannot handle multiple XYZs in a file resulting in unwanted effects. See the following thread for some discussions on these. 
+Some versions of `obminimize` cannot handle multiple XYZs in a file, resulting in unwanted effects. Please take a look at the following thread for some discussions on these. 
 https://www.mail-archive.com/search?l=openbabel-discuss@lists.sourceforge.net&q=subject:%22%5C%5BOpen+Babel%5C%5D+obminimize%22&o=newest&f=1
 
 The code [Fix4Obminimize/obminimize_all.py](https://github.com/raghurama123/CompChemToolBox/tree/main/Fix4Obminimize) gives a remedy. More details are collected in the [README file](https://github.com/raghurama123/CompChemToolBox/blob/main/Fix4Obminimize/example)
@@ -20,7 +21,7 @@ The code [Fix4Obminimize/obminimize_all.py](https://github.com/raghurama123/Comp
 The program [CheckConnGO.f90](https://github.com/raghurama123/CompChemToolBox/tree/main/CheckConnGO) compares file-1 (SDF file, presumably generated from SMILES using obabel) and file-2 (XYZ generated using DFT optimization) and does statistics about preservation of bond connectivities during geometry optimization. 
 
 
-We applied such diagnostics to identify QM9 molecules that have underdone re-arrangement during geometry optimization for our paper 
+We applied such diagnostics to identify QM9 molecules that have underdone re-arrangement during geometry optimization for our paper: 
 
 ```
   Troubleshooting Unstable Molecules in Chemical Space 
